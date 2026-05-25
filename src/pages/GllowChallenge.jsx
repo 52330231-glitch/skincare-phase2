@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-
+import  glowImage from '../assets/glow.png';
 function GllowChallenge() {
   return (
     <div className="glow-page">
@@ -17,7 +17,7 @@ function GllowChallenge() {
           <div className="row align-items-center">
             <div className="col-md-6 mb-4 mb-md-0 text-center">
               <img 
-                src="src/assets/glow.png" 
+                src={glowImage}
                 alt="Medicube Glass Glow" 
                 className="img-fluid rounded shadow-sm main-glow-img" 
               />
